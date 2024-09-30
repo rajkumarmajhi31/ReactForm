@@ -66,7 +66,7 @@ const App = () => {
           value={formData.firstName}
           name="firstName"
           id="firstName"
-          placeholder="Priyansh"
+          placeholder="Rajkumar"
           className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
         />
         <br />
@@ -79,7 +79,7 @@ const App = () => {
             value={formData.lastName}
             name="lastName"
             id="lastName"
-            placeholder="Patel"
+            placeholder="Majhi"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
@@ -93,7 +93,7 @@ const App = () => {
             value={formData.email}
             id="email"
             name="email"
-            placeholder="priyansh.patel@gmail.com"
+            placeholder="rajkumarmajhi1122@gmail.com"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
@@ -131,7 +131,7 @@ const App = () => {
             name="street"
             onChange={changeHandler}
             value={formData.street}
-            placeholder="16 Main Street"
+            placeholder="08 Main Street"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
@@ -148,7 +148,7 @@ const App = () => {
             name="city"
             onChange={changeHandler}
             value={formData.city}
-            placeholder="Mandsaur"
+            placeholder="Bhopal"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
@@ -183,7 +183,7 @@ const App = () => {
             name="postalCode"
             onChange={changeHandler}
             value={formData.postalCode}
-            placeholder="458001"
+            placeholder="462003"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
